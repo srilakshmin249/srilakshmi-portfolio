@@ -156,6 +156,7 @@
       color: var(--text); text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
       width: fit-content; padding-bottom: 3px; border-bottom: 1px solid var(--accent); transition: color .2s, gap .2s; }
     .p-link:hover { color: var(--accent-soft); gap: 13px; }
+    .project-links { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; }
 
     /* skills */
     .skills { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
@@ -300,50 +301,68 @@
       <div class="projects">
         <article class="glass project reveal">
           <div class="num">01</div>
-          <h3>AI-Based Proctoring System</h3>
+          <h3>AI-Based Exam Proctoring System</h3>
           <ul>
-            <li>Engineered browser-based single &amp; multiple-face detection with TensorFlow.js and BlazeFace.</li>
-            <li>Integrated head-movement tracking and phone detection via COCO-SSD.</li>
-            <li>Tab-switch tracking plus suspicion-scoring models to assess exam integrity.</li>
+            <li>Browser-based face detection using TensorFlow.js and BlazeFace.</li>
+            <li>Includes head-movement monitoring and phone detection with COCO-SSD.</li>
+            <li>Demonstrates tab-switch tracking and a browser-side suspicion score.</li>
           </ul>
-          <div class="tags"><span>TensorFlow.js</span><span>Computer Vision</span></div>
+          <div class="project-links">
+            <a class="p-link" href="https://github.com/srilakshmin249/ai-based-proctoring-system" target="_blank" rel="noopener">GitHub ↗</a>
+            <a class="p-link" href="https://srilakshmin249.github.io/ai-based-proctoring-system/" target="_blank" rel="noopener">Live Demo ↗</a>
+          </div>
+          <div class="tags"><span>TensorFlow.js</span><span>Computer Vision</span><span>JavaScript</span></div>
         </article>
         <article class="glass project reveal" data-delay="1">
           <div class="num">02</div>
           <h3>SatQuery AI</h3>
           <ul>
-            <li>Natural-language query interface for satellite image catalogue discovery.</li>
-            <li>Pipeline with area-of-interest extraction, safety filters and super-resolution.</li>
-            <li>Targeted integrations: ISRO, Copernicus and USGS datasets.</li>
+            <li>Prototype exploring natural-language discovery of satellite imagery.</li>
+            <li>Concept includes area-of-interest selection and safety filtering.</li>
+            <li>Designed around satellite data discovery and imagery workflows.</li>
           </ul>
           <a class="p-link" href="https://charm-studio-spark.lovable.app/" target="_blank" rel="noopener">Live Demo ↗</a>
-          <div class="tags"><span>GenAI</span><span>Satellite Imagery</span></div>
+          <div class="tags"><span>GenAI</span><span>Satellite Imagery</span><span>Prototype</span></div>
         </article>
         <article class="glass project reveal">
           <div class="num">03</div>
           <h3>NyayaFlow — Judicial Backlog Analyzer</h3>
           <ul>
-            <li>Dashboard UI for Karnataka judicial pendency and district-level metrics.</li>
-            <li>Clean analytical visuals with district heatmaps and interactive charts.</li>
+            <li>Contributed to the dashboard UI for Karnataka judicial pendency and district-level metrics.</li>
+            <li>Focused on clear analytical visuals, district heatmaps and interactive charts.</li>
           </ul>
-          <a class="p-link" href="https://github.com/Amrutha080407/NyayaFlow---Karnataka-Judicial-Backlog-Analyzer" target="_blank" rel="noopener">GitHub ↗</a>
-          <div class="tags"><span>Streamlit</span><span>Data Viz</span></div>
+          <a class="p-link" href="https://github.com/Amrutha080407/NyayaFlow---Karnataka-Judicial-Backlog-Analyzer" target="_blank" rel="noopener">Team GitHub ↗</a>
+          <div class="tags"><span>UI Contribution</span><span>Streamlit</span><span>Data Visualization</span></div>
         </article>
         <article class="glass project reveal" data-delay="1">
           <div class="num">04</div>
-          <h3>Civic Connect &amp; EcoPath</h3>
+          <h3>Civic Connect</h3>
           <ul>
-            <li>Responsive frontend for civic issue reporting with geolocation and media upload.</li>
-            <li>Hackathon-built UI presentations for sustainability initiatives.</li>
+            <li>Responsive frontend concept for reporting civic issues.</li>
+            <li>Includes interface ideas for geolocation and media uploads.</li>
           </ul>
-          <div class="tags"><span>Web UI</span><span>Hackathon</span></div>
+          <div class="tags"><span>Web UI</span><span>Civic Tech</span></div>
         </article>
-        <article class="glass project reveal" style="grid-column: 1 / -1;">
+        <article class="glass project reveal">
           <div class="num">05</div>
-          <h3>AlgoX — Algorithm Comparison Assistant</h3>
+          <h3>EcoPath</h3>
           <ul>
-            <li>Concept for automated algorithmic comparison with time &amp; space complexity analysis — a learning tool that makes choosing the right algorithm visual and intuitive.</li>
+            <li>A sustainability-focused project presented as part of the user's project portfolio.</li>
+            <li>Visit the repository for the current implementation and project details.</li>
           </ul>
+          <a class="p-link" href="https://github.com/srilakshmin249/ecopath" target="_blank" rel="noopener">GitHub ↗</a>
+          <div class="tags"><span>Sustainability</span><span>Project</span></div>
+        </article>
+        <article class="glass project reveal" data-delay="1">
+          <div class="num">06</div>
+          <h3>Algo X</h3>
+          <ul>
+            <li>An interactive learning project focused on algorithms and making their behavior easier to explore.</li>
+          </ul>
+          <div class="project-links">
+            <a class="p-link" href="https://github.com/srilakshmin249/algo-x" target="_blank" rel="noopener">GitHub ↗</a>
+            <a class="p-link" href="https://srilakshmin249.github.io/algo-x/" target="_blank" rel="noopener">Live Demo ↗</a>
+          </div>
           <div class="tags"><span>Algorithms</span><span>Learning Tool</span></div>
         </article>
       </div>
@@ -432,7 +451,7 @@
         Open to internships, hackathon teams and collaborations across AI, cybersecurity and web experiences.</p>
       <div class="contact-actions reveal" data-delay="1">
         <a class="btn btn-primary" href="https://www.linkedin.com/in/srilakshmi-narayan-252577390/" target="_blank" rel="noopener">Connect on LinkedIn ↗</a>
-        <a class="btn btn-ghost" href="https://github.com/Amrutha080407/NyayaFlow---Karnataka-Judicial-Backlog-Analyzer" target="_blank" rel="noopener">View GitHub Work</a>
+        <a class="btn btn-ghost" href="https://github.com/srilakshmin249" target="_blank" rel="noopener">View My GitHub</a>
       </div>
       <div class="contact-meta reveal" data-delay="2">Bengaluru, Karnataka · India</div>
     </section>

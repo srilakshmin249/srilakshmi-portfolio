@@ -6,7 +6,7 @@ The portfolio combines modern visual design, animations, and interactive element
 
 ## 🌐 Live Portfolio
 
-**[Visit My Portfolio](YOUR_LIVE_PORTFOLIO_URL)**
+**[Visit My Portfolio]( https://srilakshmin249.github.io/srilakshmi-portfolio/)**
 
 ---
 
@@ -147,7 +147,7 @@ I continuously work on strengthening my technical skills through projects, hacka
 ## 🔗 Connect With Me
 
 - **GitHub:** [srilakshmin249](https://github.com/srilakshmin249)
-- **LinkedIn:** [My LinkedIn Profile](YOUR_LINKEDIN_URL)
+- **LinkedIn:** [My LinkedIn Profile]([YOUR_LINKEDIN_URL](https://www.linkedin.com/in/srilakshmi-narayan-252577390?utm_source=share_via&utm_content=profile&utm_medium=member_android))
 
 ---
 
